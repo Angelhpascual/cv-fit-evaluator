@@ -1,5 +1,7 @@
 # Evaluador de encaje CV–oferta
 
+**Demo en vivo: https://cv-fit-evaluator.vercel.app**
+
 Pegas una oferta de empleo y un CV, y la aplicación devuelve una **puntuación de 0 a 100 con una rúbrica fija**, las **carencias reales** y un **veredicto** (aplicar, dudoso o descartar). El análisis llega por **streaming**.
 
 > **Estado: modo demo.** Las respuestas están **grabadas**, no las genera un modelo en tiempo real, y los tres ejemplos (candidata, empresas y ofertas) son **ficticios**. Con un texto distinto de los ejemplos, la aplicación lo dice en lugar de inventarse una evaluación. El modo real con la API de Claude está en la hoja de ruta y **todavía no existe**.
